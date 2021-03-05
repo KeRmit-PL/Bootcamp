@@ -1,0 +1,17 @@
+section {
+    background-color: lightblue;
+    width: 400px;
+    height: 400px;
+}
+
+div {
+    background-color: lightgreen;
+    width: 50%;
+    height: 50%;
+}
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+
+}
