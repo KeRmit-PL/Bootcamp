@@ -1,0 +1,64 @@
+body {
+    background-color: lightblue;
+}
+
+button {
+    font-size: 40px;
+    background-color: rgb(65, 175, 212) ;
+}
+
+h1,h2 {
+    color: darkslateblue;
+}
+/* ID SELECTOR */
+#signup {
+    background-color: darkblue;
+    color: white;
+}
+
+span {
+    color: black;
+}
+/* CLASS SELECTOR */
+.tag {
+    background-color: red;
+    font-size: 15px;
+    color: white;
+}
+/**/
+section a {
+    color:rgb(255, 230, 0);
+    background-color: black;
+    text-decoration: none;
+} 
+/* ADJENCT SELECTOR */
+input + button {
+    background-color: chocolate;
+}
+/* DIRECT SELECTOR */
+footer > a {
+    color: orangered;
+}
+/* ATTRIBUTE SELECTOR */
+input[type="password"] {
+    color:royalblue;
+}
+/* PSEUDO CLASS */
+.post button:hover {
+    background-color:wheat;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.post button:active{
+    background-color: violet;
+}
+/* PSEUDO ELEMENTS */
+h2::first-letter{
+    font-size: 40px;
+    text-decoration: underline;
+}
+h2::selection{
+    background-color: yellow;
+}
